@@ -1,0 +1,46 @@
+[
+  {
+    "ClientId": "C123",
+    "Name": "C123",
+    "ParentId": null,
+    "Classification": "Policy Portfolio",
+    "Assets": [
+      {
+        "GsSecId": "123456",
+        "Ticker": "JPM",
+        "Cusip": "JPM",
+        "Isin": "JPM",
+        "AssetType": "stock",
+        "AssetClass": "Equity"
+      }
+    ],
+    "Transactions": [
+      {
+        "TrdId": "C123.1.1",
+        "GsSecId": "123456",
+        "Date": "2025-03-01",
+        "Quantity": 10000,
+        "Price": 2.3,
+        "Type": 0,
+        "CreatedBy": null,
+        "ModifiedBy": null,
+        "CreatedAt": null,
+        "ModifiedAt": null,
+        "NetAmount": 23000.0
+      },
+      {
+        "TrdId": "C123.2.1",
+        "GsSecId": "123456",
+        "Date": "2025-03-13",
+        "Quantity": 10000,
+        "Price": 2.3,
+        "Type": 1,
+        "CreatedBy": null,
+        "ModifiedBy": null,
+        "CreatedAt": null,
+        "ModifiedAt": null,
+        "NetAmount": 23000.0
+      }
+    ]
+  }
+]

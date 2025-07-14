@@ -1,0 +1,65 @@
+[
+  {
+    "PortfolioId": "C123",
+    "Name": "C123",
+    "ParentId": null,
+    "Classification": "Policy Portfolio",
+    "Assets": [
+      {
+        "GsSecId": "123456",
+        "Ticker": "JPM",
+        "Cusip": "JPM",
+        "Isin": "JPM",
+        "AssetType": "stock",
+        "AssetClass": "Equity"
+      }
+    ],
+    "Transactions": [
+      {
+        "TxnId": 12345678,
+        "TrdId": "C123.1.1",
+        "GsSecId": "123456",
+        "Date": "2023-01-01",
+        "Quantity": 10,
+        "Price": 100,
+        "Fees":  5.00,
+        "Type": 0,
+        "CreatedBy": null,
+        "ModifiedBy": null,
+        "CreatedAt": null,
+        "ModifiedAt": null,
+        "NetAmount": 23000.0
+      },
+      {
+        "TxnId": 12345679,
+        "TrdId": "C123.2.1",
+        "GsSecId": "123456",
+        "Date": "2023-01-15",
+        "Quantity": 5,
+        "Price": 110,
+        "Fees": 5.00,
+        "Type": 0,
+        "CreatedBy": null,
+        "ModifiedBy": null,
+        "CreatedAt": null,
+        "ModifiedAt": null,
+        "NetAmount": 23000.0
+      },
+      {
+        "TxnId": 12345680,
+        "TrdId": "C123.1.1",
+        "GsSecId": "123456",
+        "Date": "2023-02-01",
+        "Quantity": 7,
+        "Price": 120,
+        "Fees": 5.00,
+        "Type": 1,
+        "CreatedBy": null,
+        "ModifiedBy": null,
+        "CreatedAt": null,
+        "ModifiedAt": null,
+        "NetAmount": 23000.0
+      }
+    ]
+  }
+]
