@@ -60,7 +60,7 @@ The PerformanceEngine is a core service class that calculates financial analytic
 All methods are fully asynchronous (async/await) for scalability and integration flexibility. The engine is stateless and designed for testability, separation of concerns, and modular extension. All methods are asynchronous (`Task<T>`) and use `IPriceProvider` to fetch historical and current prices.
 
 ## .Net Core Task Parallel Library (TPL) Stream Usage in PriceDataLoader
-The PriceDataLoader utilizes `Task Parallel Library (TPL)` and streaming I/O to efficiently ingest large financial datasets from a JSON file (portfolio_prices.json from [kaggle]([https://www.kaggle.com/datasets/nikitamanaenkov/stock-portfolio-data-with-prices-and-indices?resource=download](https://www.kaggle.com/datasets/nikitamanaenkov/stock-portfolio-data-with-prices-and-indices?resource=download&select=Portfolio_prices.csv))) . Instead of loading the entire file into memory at once, it processes records one-by-one using:
+The PriceDataLoader utilizes `Task Parallel Library (TPL)` and streaming I/O to efficiently ingest large financial datasets from a JSON file (portfolio_prices.json from [kaggle] (https://www.kaggle.com/datasets/nikitamanaenkov/stock-portfolio-data-with-prices-and-indices/data?select=Portfolio_prices.csv). Instead of loading the entire file into memory at once, it processes records one-by-one using:
 
 - StreamReader or FileStream with buffered reads
 - `await` ReadLineAsync() or JsonSerializer.DeserializeAsync() for asynchronous file I/O
