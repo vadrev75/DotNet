@@ -251,6 +251,7 @@ https://your-domain/swagger
 
 ## Future Improvements
 
+- Persist Data to Relational Database
 - Add support for multiple currency denominations
 - External market data via REST API
 ---
