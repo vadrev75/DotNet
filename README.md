@@ -44,7 +44,7 @@ Adds: New asset to portfolio
 ##  Transaction Endpoints
 
 ### POST `/api/portfolios/{id}/transactions`
-Adds: Buy/Sell transaction
+Adds: Buy/Sell transaction ["Type":0 (Buy) "Type": 1 (Sell) ]
 
 ---
 
