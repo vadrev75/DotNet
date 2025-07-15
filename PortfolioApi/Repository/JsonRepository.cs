@@ -43,7 +43,7 @@ namespace PortfolioApi.Repository
             await JsonSerializer.SerializeAsync(stream, _store, new JsonSerializerOptions { WriteIndented = true });
         }
 
-        // 🆕 Transaction APIs
+        // Transaction APIs
 
         public async Task<List<Transaction>> GetTransactionsAsync(string portfolioId)
         {
