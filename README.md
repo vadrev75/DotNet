@@ -211,7 +211,7 @@ https://localhost:7244/api/portfolios/C123/performance/unrealized?date=2023-02-0
 ## Notes
 
 - All endpoints return application/json
-- Ensure assetId matches actual portfolio asset
+- Ensure GsSecId (asset id) matches actual portfolio asset
 - Dates must be in YYYY-MM-DD format
 
 ---
